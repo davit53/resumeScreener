@@ -2,7 +2,7 @@
 
 An AI-powered command-line tool that evaluates how well a candidate’s résumé matches a job description using modern NLP, semantic embeddings, skill extraction, and an optional CrossEncoder relevance model.
 
-✨ **Features**
+# ✨ **Features**
 
   - Résumé & job description parsing (supports .txt and .pdf)
 
@@ -23,7 +23,7 @@ An AI-powered command-line tool that evaluates how well a candidate’s résumé
   - CLI interface for simple and fast usage
 
 
-🛠 **Installation**
+# 🛠 **Installation**
 
 Clone the repository:
 
@@ -36,10 +36,11 @@ Create a virtual environment:
 
 python -m venv venv
 
-# Mac/Linux
+
+//Mac/Linux
 source venv/bin/activate         
 
-# Windows
+//Windows
 venv\Scripts\activate            
 
 
@@ -49,7 +50,7 @@ pip install -r requirements.txt
 
 python -m spacy download en_core_web_sm
 
-🚀 **Usage**
+# 🚀 **Usage**
 Basic Mode (fastest)
 python main.py --resume sample_data/resume.txt --job sample_data/job.txt --mode basic
 
@@ -59,7 +60,7 @@ python main.py --resume sample_data/resume.txt --job sample_data/job.txt --mode 
 Using PDF Résumés
 python main.py --resume myResume.pdf --job jobDescription.txt --mode basic
 
-🧠 **Scoring Model Overview**
+# 🧠 **Scoring Model Overview**
 1. Semantic Similarity (Embeddings)
 
 Uses all-MiniLM-L6-v2 to convert résumé and job text into vector embeddings, then computes cosine similarity.
