@@ -28,19 +28,25 @@ An AI-powered command-line tool that evaluates how well a candidate’s résumé
 Clone the repository:
 
 git clone https://github.com/davit53/resumeScreener.git
+
 cd resumeScreener
 
 
 Create a virtual environment:
 
 python -m venv venv
-source venv/bin/activate          # Mac/Linux
-venv\Scripts\activate             # Windows
+
+# Mac/Linux
+source venv/bin/activate         
+
+# Windows
+venv\Scripts\activate            
 
 
 Install dependencies:
 
 pip install -r requirements.txt
+
 python -m spacy download en_core_web_sm
 
 🚀 **Usage**
