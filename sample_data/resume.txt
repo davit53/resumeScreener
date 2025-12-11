@@ -1,0 +1,3 @@
+I am a software engineer skilled in Python, SQL, machine learning,
+data analysis, Git, Linux, and React. I have experience building
+ML models with TensorFlow and scikit-learn.
