@@ -37,10 +37,12 @@ Create a virtual environment:
 python -m venv venv
 
 
-//Mac/Linux
+// Mac/Linux
+
 source venv/bin/activate         
 
-//Windows
+// Windows
+
 venv\Scripts\activate            
 
 
@@ -52,12 +54,15 @@ python -m spacy download en_core_web_sm
 
 # 🚀 **Usage**
 Basic Mode (fastest)
+
 python main.py --resume sample_data/resume.txt --job sample_data/job.txt --mode basic
 
 Advanced Mode (uses CrossEncoder model)
+
 python main.py --resume sample_data/resume.txt --job sample_data/job.txt --mode advanced
 
 Using PDF Résumés
+
 python main.py --resume myResume.pdf --job jobDescription.txt --mode basic
 
 # 🧠 **Scoring Model Overview**
